@@ -9,20 +9,20 @@
 <body>
 
   <!-- Include the tag for introductory content -->
-<header>
+<header role="banner">
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
     <img src="../images/sysk-logo.webp" alt="Stuff You Should Know Podcast Logo"/>  
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    <nav>
+    <nav role="navigation">
       <ul>
-        <li><a href="../index.html">About</a></li>
-        <li><a href="episodes.html">Episodes</a></li>
+        <li><a href="../index.html" aria-label="About the Podcast">About</a></li>
+        <li><a href="episodes.html" aria-label="Episodes">Episodes</a></li>
     </nav>
 
   </header>
 
   <!-- Add an element that represents the main content of the page --> 
-<main>
+<main role="main">
 
     <!-- Include a tag that groups the information about this particular podcast -->
   <section>
@@ -72,7 +72,7 @@
 </main>
         
   <!-- Include the tag for footer content -->
-  <footer>
+  <footer role="contentinfo">
     <p><small>&copy; SYSK 2023</small></p>
   </footer>
 </body>
